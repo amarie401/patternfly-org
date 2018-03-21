@@ -186,7 +186,7 @@ module.exports = function (grunt) {
     http: {
       pattern_status: {
         options: {
-           url: 'http://www.patternfly.org/patternfly-design/status/pattern-status.json'
+           url: 'https://www.patternfly.org/patternfly-design/status/pattern-status.json'
         },
         dest: '_build/_data/pattern-status.json'
       }
