@@ -5,6 +5,8 @@
 <p>
   <a href="https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/login-basic.html" target="_blank">View full page example</a>
 </p>
+<div class="code-doc">
+</div>
 <p class="reference-markup">
   <a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="login-layout-markup" href="#login-layout-markup">Reference Markup</a>
 </p>
