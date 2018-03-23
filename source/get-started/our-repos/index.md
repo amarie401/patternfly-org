@@ -12,7 +12,7 @@ PatternFly is built on top of [Bootstrap 3][1] and is licensed [Apache 2.0][2]. 
         PatternFly
       </h2>
       <p>
-        PatternFly Core contains the HTML, CSS, and JQuery. The JS framework implementation of PatternFly have a dependency on Core.
+        PatternFly Core contains the HTML, CSS, and JQuery for the PatternFly pattern library. The JS framework implementation of PatternFly have a dependency on Core.
       </p>
       <p>
         <a href="https://github.com/patternfly/patternfly">Visit the PatternFly GitHub Repo</a>
