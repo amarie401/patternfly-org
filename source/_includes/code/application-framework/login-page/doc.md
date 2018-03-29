@@ -70,11 +70,7 @@
   <thead>
     <tr>
       <th>Selector</th>
-<<<<<<< HEAD
-      <th>.login-pf-socal-double-col</th>
-=======
       <th>.login-pf-social-double-col</th>
->>>>>>> 776edcc0e481f65b77062ca734842c32527e31ba
     </tr>
   </thead>
   <tbody>
