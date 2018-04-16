@@ -8,5 +8,9 @@
 </p>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-1" href="#markup-1">Reference Markup</a></p>
 <div class="collapse in" id="markup-1">
+<<<<<<< HEAD
   <pre class="prettyprint">{% capture markup_include %}{% include widgets/navigation/vertical-navigation.html %}{% endcapture %}{{ markup_include | xml_escape }}</pre>
+=======
+  <pre class="prettyprint">{% capture markup_include %}{% include widgets/framework/context-selector.html %}{% endcapture %}{{ markup_include | xml_escape }}</pre>
+>>>>>>> 28804a9b9d77eed232e4fbe35977527fdc6e2d6a
 </div>
