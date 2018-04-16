@@ -36,19 +36,20 @@
   <script type="text/javascript">
     window.IMAGE_PATH = "/amarie401/patternfly-org/context-selector-example-dist/_site/assets/img"
   </script>
-  <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/patternfly-bootstrap-combobox/js/bootstrap-combobox.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
   
-  <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/d3/d3.min.js"></script>
-  <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/c3/c3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/datatables/media/js/jquery.dataTables.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/google-code-prettify/bin/prettify.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/clipboard/dist/clipboard.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/patternfly/dist/js/patternfly.min.js"></script>
+  <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/patternfly/dist/js/patternfly.dataTables.pfFilter.min.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/angular-patternfly/dist/docs/js/marked.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/angular-patternfly/dist/docs/grunt-scripts/angular.js"></script>
   <script src="/amarie401/patternfly-org/context-selector-example-dist/_site/components/angular-patternfly/dist/docs/grunt-scripts/angular-sanitize.js"></script>
@@ -127,9 +128,6 @@
                 <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/community/">Community</a>
               </li>
               <li>
-                <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/download/">Download</a>
-              </li>
-              <li>
                 <a href="http://blog.patternfly.org">Blog</a>
               </li>
             </ul>
@@ -160,9 +158,6 @@
               </li>
               <li>
               <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/community/">Community</a>
-              </li>
-              <li>
-              <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/download/">Download</a>
               </li>
               <li>
                 <a href="http://blog.patternfly.org">Blog</a>
@@ -268,7 +263,7 @@
       <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/communication/notification-drawer/">Notification Drawer</a>
     </li>
     <li >
-      <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/communication/session-expiration-warning/">Session Expiration Warning</a>
+      <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/communication/session-timeout/">Session Timeout</a>
     </li>
     <li >
       <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/communication/toast-notifications/">Toast Notifications</a>
@@ -434,6 +429,9 @@
     </li>
     <li >
       <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/forms-and-controls/toolbar/">Toolbar</a>
+    </li>
+    <li >
+      <a href="/amarie401/patternfly-org/context-selector-example-dist/_site/pattern-library/forms-and-controls/view-selector/">View Selector</a>
     </li>
   </ul>
 </li>
@@ -795,9 +793,17 @@
             <h2 class="pforg-code__core-example-title">PatternFly Core Example</h2>
             
           </div>
+<<<<<<< HEAD
           <div class="pforg-code-doc">
             
           </div>
+=======
+          <br>
+          <div class="pforg-code-doc">
+            
+          </div>
+
+>>>>>>> 28804a9b9d77eed232e4fbe35977527fdc6e2d6a
           <div class="" id="html-css">
             
               <p>Jump to <a href="#example-code-1">Standard List View</a>, <a href="#example-code-2">Simple Expansion</a>, <a href="#example-code-3">Compound Expansion</a>,
@@ -894,7 +900,7 @@
                 &lt;label class=&quot;sr-only&quot; for=&quot;filter&quot;&gt;Name&lt;/label&gt;
                 &lt;div class=&quot;input-group&quot;&gt;
                   &lt;div class=&quot;input-group-btn&quot;&gt;
-                    &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Name &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; id=&quot;input-filter-button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Name &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;
                     &lt;ul class=&quot;dropdown-menu&quot;&gt;
                       &lt;li class=&quot;selected&quot;&gt;&lt;a href=&quot;#&quot;&gt;Name&lt;/a&gt;&lt;/li&gt;
                       &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Type&lt;/a&gt;&lt;/li&gt;
@@ -906,7 +912,7 @@
               &lt;/div&gt;
               &lt;div class=&quot;form-group&quot;&gt;
                 &lt;div class=&quot;dropdown btn-group&quot;&gt;
-                  &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Name &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; id=&quot;filter-button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Name &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;
                   &lt;ul class=&quot;dropdown-menu&quot;&gt;
                     &lt;li class=&quot;selected&quot;&gt;&lt;a href=&quot;#&quot;&gt;Name&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Type&lt;/a&gt;&lt;/li&gt;
@@ -934,6 +940,7 @@
 &lt;/div&gt;
 
               &lt;/div&gt;
+              
               &lt;div class=&quot;toolbar-pf-action-right&quot;&gt;
                 &lt;div class=&quot;form-group toolbar-pf-find&quot;&gt;
                   &lt;button class=&quot;btn btn-link btn-find&quot; type=&quot;button&quot;&gt;
@@ -994,7 +1001,8 @@
       &lt;/div&gt;&lt;!-- /container --&gt;
 
 &lt;div class=&quot;container-fluid&quot;&gt;
-&lt;div class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
+
+&lt;div id=&quot;pf-list-standard&quot; class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -1323,7 +1331,7 @@
 &lt;script&gt;
   $(document).ready(function () {
     // Row Checkbox Selection
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-standard input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -1331,14 +1339,14 @@
       }
     });
     // toggle dropdown menu
-    $('.list-view-pf-actions').on('show.bs.dropdown', function () {
+    $('#pf-list-standard .list-view-pf-actions').on('show.bs.dropdown', function () {
       var $this = $(this);
       var $dropdown = $this.find('.dropdown');
       var space = $(window).height() - $dropdown[0].getBoundingClientRect().top - $this.find('.dropdown-menu').outerHeight(true);
       $dropdown.toggleClass('dropup', space &lt; 10);
     });
     // allow users to select multiple list items with shift key
-    $('.list-group').on('click', '.list-view-pf-checkbox&gt;input', function(event) {
+    $('#pf-list-standard .list-group').on('click', '.list-view-pf-checkbox&gt;input', function(event) {
       var $list = $('.list-group');
       var prevIndex = $list.data('preIndex');
       var $listItems = $list.children('.list-group-item');
@@ -1363,7 +1371,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf list-view-pf-view">
+          
+<div id="pf-list-simple-expansion" class="list-group list-view-pf list-view-pf-view">
   <div class="list-group-item">
     <div class="list-group-item-header">
       <div class="list-view-pf-expand">
@@ -2778,7 +2787,7 @@
 <script>
   $(document).ready(function () {
     // Row Checkbox Selection
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-simple-expansion input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -2786,7 +2795,7 @@
       }
     });
     // toggle dropdown menu
-    $('.list-view-pf-actions').on('show.bs.dropdown', function () {
+    $("#pf-list-simple-expansion .list-view-pf-actions").on('show.bs.dropdown', function () {
       var $this = $(this);
       var $dropdown = $this.find('.dropdown');
       var space = $(window).height() - $dropdown[0].getBoundingClientRect().top - $this.find('.dropdown-menu').outerHeight(true);
@@ -2794,7 +2803,7 @@
     });
 
     // click the list-view heading then expand a row
-    $(".list-group-item-header").click(function(event){
+    $("#pf-list-simple-expansion .list-group-item-header").click(function(event){
       if(!$(event.target).is("button, a, input, .fa-ellipsis-v")){
         $(this).find(".fa-angle-right").toggleClass("fa-angle-down")
           .end().parent().toggleClass("list-view-pf-expand-active")
@@ -2804,7 +2813,7 @@
     })
 
     // click the close button, hide the expand row and remove the active status
-    $(".list-group-item-container .close").on("click", function (){
+    $("#pf-list-simple-expansion .list-group-item-container .close").on("click", function (){
       $(this).parent().addClass("hidden")
         .parent().removeClass("list-view-pf-expand-active")
           .find(".fa-angle-right").removeClass("fa-angle-down");
@@ -2820,7 +2829,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-2" href="#markup-2">Reference Markup</a></p>
 <div class="collapse in" id="markup-2">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-simple-expansion&quot; class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-group-item-header&quot;&gt;
       &lt;div class=&quot;list-view-pf-expand&quot;&gt;
@@ -4235,7 +4245,7 @@
 &lt;script&gt;
   $(document).ready(function () {
     // Row Checkbox Selection
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-simple-expansion input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -4243,7 +4253,7 @@
       }
     });
     // toggle dropdown menu
-    $('.list-view-pf-actions').on('show.bs.dropdown', function () {
+    $(&quot;#pf-list-simple-expansion .list-view-pf-actions&quot;).on('show.bs.dropdown', function () {
       var $this = $(this);
       var $dropdown = $this.find('.dropdown');
       var space = $(window).height() - $dropdown[0].getBoundingClientRect().top - $this.find('.dropdown-menu').outerHeight(true);
@@ -4251,7 +4261,7 @@
     });
 
     // click the list-view heading then expand a row
-    $(&quot;.list-group-item-header&quot;).click(function(event){
+    $(&quot;#pf-list-simple-expansion .list-group-item-header&quot;).click(function(event){
       if(!$(event.target).is(&quot;button, a, input, .fa-ellipsis-v&quot;)){
         $(this).find(&quot;.fa-angle-right&quot;).toggleClass(&quot;fa-angle-down&quot;)
           .end().parent().toggleClass(&quot;list-view-pf-expand-active&quot;)
@@ -4261,7 +4271,7 @@
     })
 
     // click the close button, hide the expand row and remove the active status
-    $(&quot;.list-group-item-container .close&quot;).on(&quot;click&quot;, function (){
+    $(&quot;#pf-list-simple-expansion .list-group-item-container .close&quot;).on(&quot;click&quot;, function (){
       $(this).parent().addClass(&quot;hidden&quot;)
         .parent().removeClass(&quot;list-view-pf-expand-active&quot;)
           .find(&quot;.fa-angle-right&quot;).removeClass(&quot;fa-angle-down&quot;);
@@ -4277,7 +4287,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf list-view-pf-view">
+          
+<div id="pf-list-compound-expansion" class="list-group list-view-pf list-view-pf-view">
   <div class="list-group-item">
     <div class="list-view-pf-checkbox">
       <input type="checkbox">
@@ -5686,7 +5697,7 @@
 <script>
   $(document).ready(function () {
     // Row Checkbox Selection
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-compound-expansion input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -5694,14 +5705,14 @@
       }
     });
     // toggle dropdown menu
-    $(".list-view-pf-actions").on("show.bs.dropdown", function () {
+    $("#pf-list-compound-expansion .list-view-pf-actions").on("show.bs.dropdown", function () {
       var $this = $(this);
       var $dropdown = $this.find(".dropdown");
       var space = $(window).height() - $dropdown[0].getBoundingClientRect().top - $this.find(".dropdown-menu").outerHeight(true);
       $dropdown.toggleClass("dropup", space < 10);
     });
     // compound expansion
-    $(".list-view-pf-expand").on("click", function () {
+    $("#pf-list-compound-expansion .list-view-pf-expand").on("click", function () {
       var $this = $(this);
       var $heading = $(this).parents(".list-group-item");
       //var $row = $heading.parent();
@@ -5729,7 +5740,7 @@
     });
 
     // click close button to close the panel
-    $(".list-group-item-container .close").on("click", function (){
+    $("#pf-list-compound-expansion .list-group-item-container .close").on("click", function (){
       var $this = $(this);
       var $panel = $this.parent();
 
@@ -5749,7 +5760,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-3" href="#markup-3">Reference Markup</a></p>
 <div class="collapse in" id="markup-3">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-compound-expansion&quot; class=&quot;list-group list-view-pf list-view-pf-view&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -7158,7 +7170,7 @@
 &lt;script&gt;
   $(document).ready(function () {
     // Row Checkbox Selection
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-compound-expansion input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -7166,14 +7178,14 @@
       }
     });
     // toggle dropdown menu
-    $(&quot;.list-view-pf-actions&quot;).on(&quot;show.bs.dropdown&quot;, function () {
+    $(&quot;#pf-list-compound-expansion .list-view-pf-actions&quot;).on(&quot;show.bs.dropdown&quot;, function () {
       var $this = $(this);
       var $dropdown = $this.find(&quot;.dropdown&quot;);
       var space = $(window).height() - $dropdown[0].getBoundingClientRect().top - $this.find(&quot;.dropdown-menu&quot;).outerHeight(true);
       $dropdown.toggleClass(&quot;dropup&quot;, space &lt; 10);
     });
     // compound expansion
-    $(&quot;.list-view-pf-expand&quot;).on(&quot;click&quot;, function () {
+    $(&quot;#pf-list-compound-expansion .list-view-pf-expand&quot;).on(&quot;click&quot;, function () {
       var $this = $(this);
       var $heading = $(this).parents(&quot;.list-group-item&quot;);
       //var $row = $heading.parent();
@@ -7201,7 +7213,7 @@
     });
 
     // click close button to close the panel
-    $(&quot;.list-group-item-container .close&quot;).on(&quot;click&quot;, function (){
+    $(&quot;#pf-list-compound-expansion .list-group-item-container .close&quot;).on(&quot;click&quot;, function (){
       var $this = $(this);
       var $panel = $this.parent();
 
@@ -7221,7 +7233,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf">
+          
+<div id="pf-list-default" class="list-group list-view-pf">
   <div class="list-group-item">
     <div class="list-view-pf-checkbox">
       <input type="checkbox">
@@ -7280,7 +7293,7 @@
 <script>
   // Row Checkbox Selection
   $(document).ready(function () {
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-default input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -7296,7 +7309,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-4" href="#markup-4">Reference Markup</a></p>
 <div class="collapse in" id="markup-4">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-default&quot; class=&quot;list-group list-view-pf&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -7355,7 +7369,7 @@
 &lt;script&gt;
   // Row Checkbox Selection
   $(document).ready(function () {
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-default input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -7788,7 +7802,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf">
+          
+<div id="pf-list-var3" class="list-group list-view-pf">
   <div class="list-group-item list-view-pf-stacked list-view-pf-top-align">
     <div class="list-view-pf-checkbox">
       <input type="checkbox">
@@ -7838,7 +7853,7 @@
 <script>
   // Row Checkbox Selection
   $(document).ready(function () {
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-var3 input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -7854,7 +7869,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-7" href="#markup-7">Reference Markup</a></p>
 <div class="collapse in" id="markup-7">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-var3&quot; class=&quot;list-group list-view-pf&quot;&gt;
   &lt;div class=&quot;list-group-item list-view-pf-stacked list-view-pf-top-align&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -7904,7 +7920,7 @@
 &lt;script&gt;
   // Row Checkbox Selection
   $(document).ready(function () {
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-var3 input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -7920,7 +7936,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf">
+          
+<div id="pf-list-var4" class="list-group list-view-pf">
   <div class="list-group-item">
     <div class="list-view-pf-checkbox">
       <input type="checkbox">
@@ -7955,7 +7972,7 @@
 <script>
   // Row Checkbox Selection
   $(document).ready(function () {
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-var4 input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -7971,7 +7988,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-8" href="#markup-8">Reference Markup</a></p>
 <div class="collapse in" id="markup-8">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-var4&quot; class=&quot;list-group list-view-pf&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -8006,7 +8024,7 @@
 &lt;script&gt;
   // Row Checkbox Selection
   $(document).ready(function () {
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-var4 input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
@@ -8022,7 +8040,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf list-view-pf-equalized-column">
+          
+<div id="pf-list-var5" class="list-group list-view-pf list-view-pf-equalized-column">
   <div class="list-group-item">
     <div class="list-view-pf-main-info">
       <div class="list-view-pf-left">
@@ -8135,12 +8154,13 @@
 <script>
   // Equalize column width
   $(document).ready(function () {
-  	var widest = 0;
-  	$('.list-view-pf-equalized-column .list-view-pf-additional-info-item').each( function() {
-  		widest = $(this).width() > widest ? $(this).width() : widest;
-  	}).width(widest);
+    var widest = 0;
+    $('#pf-list-var5 .list-view-pf-equalized-column .list-view-pf-additional-info-item').each( function() {
+      widest = $(this).width() > widest ? $(this).width() : widest;
+    }).width(widest);
   });
 </script>
+
         </div>
       </div>
     </div>
@@ -8148,7 +8168,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-9" href="#markup-9">Reference Markup</a></p>
 <div class="collapse in" id="markup-9">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf list-view-pf-equalized-column&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-var5&quot; class=&quot;list-group list-view-pf list-view-pf-equalized-column&quot;&gt;
   &lt;div class=&quot;list-group-item&quot;&gt;
     &lt;div class=&quot;list-view-pf-main-info&quot;&gt;
       &lt;div class=&quot;list-view-pf-left&quot;&gt;
@@ -8261,12 +8282,13 @@
 &lt;script&gt;
   // Equalize column width
   $(document).ready(function () {
-  	var widest = 0;
-  	$('.list-view-pf-equalized-column .list-view-pf-additional-info-item').each( function() {
-  		widest = $(this).width() &gt; widest ? $(this).width() : widest;
-  	}).width(widest);
+    var widest = 0;
+    $('#pf-list-var5 .list-view-pf-equalized-column .list-view-pf-additional-info-item').each( function() {
+      widest = $(this).width() &gt; widest ? $(this).width() : widest;
+    }).width(widest);
   });
-&lt;/script&gt;</pre>
+&lt;/script&gt;
+</pre>
 </div>
 <h2 id="example-code-10">Row Variation #6</h2>
 <div class="example-pf">
@@ -8274,7 +8296,8 @@
     <div class="cards-pf">
       <div class="container-fluid container-cards-pf">
         <div class="row row-cards-pf">
-          <div class="list-group list-view-pf">
+          
+<div id="pf-list-var6" class="list-group list-view-pf">
   <div class="list-group-item list-view-pf-stacked list-view-pf-top-align">
     <div class="list-view-pf-checkbox">
       <input type="checkbox">
@@ -8329,7 +8352,7 @@
 <script>
   // Row Checkbox Selection
   $(document).ready(function () {
-    $("input[type='checkbox']").change(function (e) {
+    $("#pf-list-var6 input[type='checkbox']").change(function (e) {
       if ($(this).is(":checked")) {
         $(this).closest('.list-group-item').addClass("active");
       } else {
@@ -8345,7 +8368,8 @@
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-10" href="#markup-10">Reference Markup</a></p>
 <div class="collapse in" id="markup-10">
-  <pre class="prettyprint">&lt;div class=&quot;list-group list-view-pf&quot;&gt;
+  <pre class="prettyprint">
+&lt;div id=&quot;pf-list-var6&quot; class=&quot;list-group list-view-pf&quot;&gt;
   &lt;div class=&quot;list-group-item list-view-pf-stacked list-view-pf-top-align&quot;&gt;
     &lt;div class=&quot;list-view-pf-checkbox&quot;&gt;
       &lt;input type=&quot;checkbox&quot;&gt;
@@ -8400,7 +8424,7 @@
 &lt;script&gt;
   // Row Checkbox Selection
   $(document).ready(function () {
-    $(&quot;input[type='checkbox']&quot;).change(function (e) {
+    $(&quot;#pf-list-var6 input[type='checkbox']&quot;).change(function (e) {
       if ($(this).is(&quot;:checked&quot;)) {
         $(this).closest('.list-group-item').addClass(&quot;active&quot;);
       } else {
