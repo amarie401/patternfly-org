@@ -2,48 +2,48 @@
   "_args": [
     [
       {
-        "raw": "bootstrap-select@^1.12.2",
+        "raw": "bootstrap-select@1.12.2",
         "scope": null,
         "escapedName": "bootstrap-select",
         "name": "bootstrap-select",
-        "rawSpec": "^1.12.2",
-        "spec": ">=1.12.2 <2.0.0",
-        "type": "range"
+        "rawSpec": "1.12.2",
+        "spec": "1.12.2",
+        "type": "version"
       },
       "/Users/alo/Documents/Projects/Forked/patternfly-org"
     ]
   ],
-  "_from": "bootstrap-select@>=1.12.2 <2.0.0",
-  "_id": "bootstrap-select@1.12.4",
+  "_from": "bootstrap-select@1.12.2",
+  "_id": "bootstrap-select@1.12.2",
   "_inCache": true,
   "_location": "/bootstrap-select",
-  "_nodeVersion": "7.10.0",
+  "_nodeVersion": "0.12.12",
   "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/bootstrap-select-1.12.4.tgz_1500490998852_0.6986638610251248"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/bootstrap-select-1.12.2.tgz_1485807883123_0.7685247249901295"
   },
   "_npmUser": {
     "name": "caseyjhol",
     "email": "casey17648@gmail.com"
   },
-  "_npmVersion": "4.2.0",
+  "_npmVersion": "2.14.9",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bootstrap-select@^1.12.2",
+    "raw": "bootstrap-select@1.12.2",
     "scope": null,
     "escapedName": "bootstrap-select",
     "name": "bootstrap-select",
-    "rawSpec": "^1.12.2",
-    "spec": ">=1.12.2 <2.0.0",
-    "type": "range"
+    "rawSpec": "1.12.2",
+    "spec": "1.12.2",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/bootstrap-select/-/bootstrap-select-1.12.4.tgz",
-  "_shasum": "7f15d3c0ce978868d9c09c70f96624f55fa02ee1",
+  "_resolved": "https://registry.npmjs.org/bootstrap-select/-/bootstrap-select-1.12.2.tgz",
+  "_shasum": "58d095b3fd584b31443866fbe39b6fdd4e4e12a4",
   "_shrinkwrap": null,
-  "_spec": "bootstrap-select@^1.12.2",
+  "_spec": "bootstrap-select@1.12.2",
   "_where": "/Users/alo/Documents/Projects/Forked/patternfly-org",
   "author": {
     "name": "Silvio Moreto",
@@ -98,10 +98,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "7f15d3c0ce978868d9c09c70f96624f55fa02ee1",
-    "tarball": "https://registry.npmjs.org/bootstrap-select/-/bootstrap-select-1.12.4.tgz"
+    "shasum": "58d095b3fd584b31443866fbe39b6fdd4e4e12a4",
+    "tarball": "https://registry.npmjs.org/bootstrap-select/-/bootstrap-select-1.12.2.tgz"
   },
-  "gitHead": "e1a7743e82eb16bce825ec58a8c95b2aceae6942",
+  "gitHead": "4eb040b7097fd8eab8184e54efe973ce8468e9b2",
   "homepage": "http://silviomoreto.github.io/bootstrap-select",
   "keywords": [
     "form",
@@ -130,5 +130,5 @@
   },
   "scripts": {},
   "title": "bootstrap-select",
-  "version": "1.12.4"
+  "version": "1.12.2"
 }
