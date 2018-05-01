@@ -1,7 +1,7 @@
 <h2 id="example-code-1">Examples</h2>
 <div class="example-pf">
   <iframe src="{{site.baseurl}}/pattern-library/forms-and-controls/inline-edit/inline-edit-for-form.html"
-          width="100%" height="650px;" scrolling="no" seamless></iframe>
+          width="100%" height="430px;" scrolling="no" seamless></iframe>
 </div>
 <p class="reference-markup"><a class="collapse-toggle" data-toggle="collapse" aria-expanded="true" aria-controls="markup-1" href="#markup-1">Reference Markup</a></p>
 <div class="collapse in" id="markup-1">
