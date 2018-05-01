@@ -3,7 +3,6 @@ title: Community
 author: lhinson
 layout: page
 ---
-# Community
 Hello, we’re glad you're here! We need a healthy community to help PatternFly improve and grow. This page includes helpful links for staying engaged and involved.  
 
 
