@@ -3,9 +3,6 @@ title: Community
 author: lhinson
 layout: page
 ---
-Hello, we’re glad you're here! We need a healthy community to help PatternFly improve and grow. This page includes helpful links for staying engaged and involved.  
-
-
 ## Our Code Of Conduct
 PatternFly adheres to the [Contributor Covenant Code of Conduct][1]. As a PatternFly community member, you are expected to uphold this code of conduct.
 
@@ -20,13 +17,13 @@ PatternFly adheres to the [Contributor Covenant Code of Conduct][1]. As a Patter
 
 ## Contribute
 
-## File an Issue
+### File an Issue
 Before filing an issue, check the list of open issues against [our GitHub repositories][8]. When you create an issue, include as many details as possible, use a clear and descriptive title, and remember that an image is worth a thousand words, so try to add images and links when possible.
 
-## Proposing or Modifying a Design
+### Proposing or Modifying a Design
 Propose a new pattern, add an enhancement to an existing pattern, or help us fix  existing documentation issues. All design and documentation changes are submitted and managed through our [Design Repo][9]. Visit [How to Contribute to PatternFly Design][10] for more information. 
 
-## Contributing code
+### Contributing code
 Both developers and designers review PRs, so if you are committing a new design or modifying an existing design, be sure to add a link to a graphic or a working version on rawgit so that designers can preview the request.
 
 Whenever possible, provide a link to the design documentation or specification that supported the development of the code. The PR will be reviewed by the community, and once it’s approved by two people from the team it  can  be merged.
